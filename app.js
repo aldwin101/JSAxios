@@ -17,8 +17,8 @@ function failedActivity(err){
 bttn.addEventListener('click', getActivity)
 
 
-                            // Generate activity based on participantslet 
-button = document.getElementById('button');
+                            // Generate activity based on participants
+let button = document.getElementById('button');
 function getActivityByParticipants(){
     axios.get("http://www.boredapi.com/api/activity/",
     {
